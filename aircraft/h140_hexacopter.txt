@@ -1,0 +1,483 @@
+Component Type: Battery
+name: Battery1
+color:  0.0000000000e+000  0.0000000000e+000  5.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+cells: 6
+capacity_mAh_: 23886.6
+cRating: 5
+massMargin-percentage-: 0
+parallelCount: 1
+widthToLength-percent-: 39
+heightToLength-percent-: 29
+position:  0.0000000000e+000  0.0000000000e+000  5.4049767554e-002
+rotation-euler-:  0.0000000000e+000  9.0000000000e+001  0.0000000000e+000
+
+Component Type: Propeller
+name: Propeller1
+color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
+material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+pusher: 0
+type: APC_SlowFlyer
+folding: 0
+diameter-in-: 25
+pitch-in-: 8.30565
+bladeCount: 2
+clockwise: 0
+hubNormalizedRadius-percent-: 10
+massMargin-percentage-: 0
+gearRatio: 1
+position:  3.4924998879e-001  6.0491871834e-001  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Propeller
+name: Propeller2
+color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
+material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+pusher: 0
+type: APC_SlowFlyer
+folding: 0
+diameter-in-: 25
+pitch-in-: 8.30565
+bladeCount: 2
+clockwise: 1
+hubNormalizedRadius-percent-: 10
+massMargin-percentage-: 0
+gearRatio: 1
+position:  6.9849997759e-001  0.0000000000e+000  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Propeller
+name: Propeller3
+color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
+material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+pusher: 0
+type: APC_SlowFlyer
+folding: 0
+diameter-in-: 25
+pitch-in-: 8.30565
+bladeCount: 2
+clockwise: 0
+hubNormalizedRadius-percent-: 10
+massMargin-percentage-: 0
+gearRatio: 1
+position:  3.4925004840e-001 -6.0491865873e-001  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Propeller
+name: Propeller4
+color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
+material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+pusher: 0
+type: APC_SlowFlyer
+folding: 0
+diameter-in-: 25
+pitch-in-: 8.30565
+bladeCount: 2
+clockwise: 1
+hubNormalizedRadius-percent-: 10
+massMargin-percentage-: 0
+gearRatio: 1
+position: -3.4924998879e-001 -6.0491865873e-001  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Propeller
+name: Propeller5
+color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
+material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+pusher: 0
+type: APC_SlowFlyer
+folding: 0
+diameter-in-: 25
+pitch-in-: 8.30565
+bladeCount: 2
+clockwise: 0
+hubNormalizedRadius-percent-: 10
+massMargin-percentage-: 0
+gearRatio: 1
+position: -6.9849997759e-001  0.0000000000e+000  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Propeller
+name: Propeller6
+color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
+material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+pusher: 0
+type: APC_SlowFlyer
+folding: 0
+diameter-in-: 25
+pitch-in-: 8.30565
+bladeCount: 2
+clockwise: 1
+hubNormalizedRadius-percent-: 10
+massMargin-percentage-: 0
+gearRatio: 1
+position: -3.4925013781e-001  6.0491871834e-001  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+
+Component Type: ElectricMotor
+name: Motor1
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+kv: 164.328
+maximumCurrent: 13.4758
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 100
+position:  3.4924998879e-001  6.0491871834e-001  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+servo: SpeedController1
+speedController: SpeedController1
+propulsor: Propeller1
+
+Component Type: ElectricMotor
+name: Motor2
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+kv: 164.328
+maximumCurrent: 13.4758
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 100
+position:  6.9849997759e-001  0.0000000000e+000  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+servo: SpeedController2
+speedController: SpeedController2
+propulsor: Propeller2
+
+Component Type: ElectricMotor
+name: Motor3
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+kv: 164.328
+maximumCurrent: 13.4758
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 100
+position:  3.4925004840e-001 -6.0491865873e-001  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+servo: SpeedController3
+speedController: SpeedController3
+propulsor: Propeller3
+
+Component Type: ElectricMotor
+name: Motor4
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+kv: 164.328
+maximumCurrent: 13.4758
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 100
+position: -3.4924998879e-001 -6.0491865873e-001  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+servo: SpeedController4
+speedController: SpeedController4
+propulsor: Propeller4
+
+Component Type: ElectricMotor
+name: Motor5
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+kv: 164.328
+maximumCurrent: 13.4758
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 100
+position: -6.9849997759e-001  0.0000000000e+000  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+servo: SpeedController5
+speedController: SpeedController5
+propulsor: Propeller5
+
+Component Type: ElectricMotor
+name: Motor6
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+kv: 164.328
+maximumCurrent: 13.4758
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 100
+position: -3.4925013781e-001  6.0491871834e-001  7.0715755224e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+servo: SpeedController6
+speedController: SpeedController6
+propulsor: Propeller6
+
+Component Type: StructuralComponent
+name: Arm1
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 1
+length:  6.9849997759e-001
+roundness-percentage-:  5.0000000000e-001  5.0000000000e-001
+height:  5.5879995227e-002  2.7939997613e-002
+width:  5.5879995227e-002  2.7939997613e-002
+bend:  0.0000000000e+000
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  0.0000000000e+000  0.0000000000e+000  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  3.0000001907e+001
+
+Component Type: StructuralComponent
+name: Arm2
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 1
+length:  6.9849997759e-001
+roundness-percentage-:  5.0000000000e-001  5.0000000000e-001
+height:  5.5879995227e-002  2.7939997613e-002
+width:  5.5879995227e-002  2.7939997613e-002
+bend:  0.0000000000e+000
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  0.0000000000e+000  0.0000000000e+000  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  9.0000000000e+001
+
+Component Type: StructuralComponent
+name: Arm3
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 1
+length:  6.9849997759e-001
+roundness-percentage-:  5.0000000000e-001  5.0000000000e-001
+height:  5.5879995227e-002  2.7939997613e-002
+width:  5.5879995227e-002  2.7939997613e-002
+bend:  0.0000000000e+000
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  0.0000000000e+000  0.0000000000e+000  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  1.5000000000e+002
+
+Component Type: StructuralComponent
+name: Arm4
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 1
+length:  6.9849997759e-001
+roundness-percentage-:  5.0000000000e-001  5.0000000000e-001
+height:  5.5879995227e-002  2.7939997613e-002
+width:  5.5879995227e-002  2.7939997613e-002
+bend:  0.0000000000e+000
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  0.0000000000e+000  0.0000000000e+000  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -1.5000000000e+002
+
+Component Type: StructuralComponent
+name: Arm5
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 1
+length:  6.9849997759e-001
+roundness-percentage-:  5.0000000000e-001  5.0000000000e-001
+height:  5.5879995227e-002  2.7939997613e-002
+width:  5.5879995227e-002  2.7939997613e-002
+bend:  0.0000000000e+000
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  0.0000000000e+000  0.0000000000e+000  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -9.0000000000e+001
+
+Component Type: StructuralComponent
+name: Arm6
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 1
+length:  6.9849997759e-001
+roundness-percentage-:  5.0000000000e-001  5.0000000000e-001
+height:  5.5879995227e-002  2.7939997613e-002
+width:  5.5879995227e-002  2.7939997613e-002
+bend:  0.0000000000e+000
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  0.0000000000e+000  0.0000000000e+000  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -3.0000000000e+001
+
+Component Type: StructuralComponent
+name: Hub
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 1
+length:  6.1467997730e-002
+roundness-percentage-:  0.0000000000e+000  0.0000000000e+000
+height:  4.1910001636e-001  4.1910001636e-001
+width:  4.1910001636e-001  4.1910001636e-001
+bend:  0.0000000000e+000
+constructionMethod: Semi-monocoque
+constructionMaterial: Wood
+massMargin-percentage-: 0
+position:  0.0000000000e+000  0.0000000000e+000 -1.1033974588e-002
+rotation-euler-: -9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+
+Component Type: StructuralComponent
+name: Leg1
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 5
+length:  6.1500001699e-002  1.0000000149e-001  1.0000000149e-001  1.0000000149e-001  2.6449999213e-001
+roundness-percentage-:  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001
+height:  5.5879995227e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002
+width:  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002
+bend:  0.0000000000e+000 -2.2500000000e+001 -2.2500000000e+001 -2.2500000000e+001 -2.2500000000e+001
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  0.0000000000e+000  2.1999999881e-001 -1.0300002992e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  9.0000000000e+001
+
+Component Type: StructuralComponent
+name: Leg2
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 5
+length:  6.1500001699e-002  1.0000000149e-001  1.0000000149e-001  1.0000000149e-001  2.6449999213e-001
+roundness-percentage-:  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001
+height:  5.5879995227e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002
+width:  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002
+bend:  0.0000000000e+000 -2.2500000000e+001 -2.2500000000e+001 -2.2500000000e+001 -2.2500000000e+001
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  0.0000000000e+000  2.1999999881e-001 -1.0300002992e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -9.0000000000e+001
+
+Component Type: StructuralComponent
+name: Leg3
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 5
+length:  6.1500001699e-002  1.0000000149e-001  1.0000000149e-001  1.0000000149e-001  2.6449999213e-001
+roundness-percentage-:  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001
+height:  5.5879995227e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002
+width:  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002
+bend:  0.0000000000e+000 -2.2500000000e+001 -2.2500000000e+001 -2.2500000000e+001 -2.2500000000e+001
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  0.0000000000e+000 -1.9999998808e-001 -1.0300002992e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  9.0000000000e+001
+
+Component Type: StructuralComponent
+name: Leg4
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 5
+length:  6.1500001699e-002  1.0000000149e-001  1.0000000149e-001  1.0000000149e-001  2.6449999213e-001
+roundness-percentage-:  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001  5.0000000000e-001
+height:  5.5879995227e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002  5.5900000036e-002
+width:  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002  2.9999999329e-002
+bend:  0.0000000000e+000 -2.2500000000e+001 -2.2500000000e+001 -2.2500000000e+001 -2.2500000000e+001
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  0.0000000000e+000 -1.9999998808e-001 -1.0300002992e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -9.0000000000e+001
+
+Component Type: SpeedController
+name: SpeedController1
+color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+currentRating: 13.4758
+massMargin-percentage-: 0
+position:  3.4924998879e-002  6.0491889715e-002  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  3.0000001907e+001
+battery: Battery1
+signal: FlightController:Ch5
+
+Component Type: SpeedController
+name: SpeedController2
+color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+currentRating: 13.4758
+massMargin-percentage-: 0
+position:  6.9849997759e-002  0.0000000000e+000  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  9.0000000000e+001
+battery: Battery1
+signal: FlightController:Ch1
+
+Component Type: SpeedController
+name: SpeedController3
+color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+currentRating: 13.4758
+massMargin-percentage-: 0
+position:  3.4925006330e-002 -6.0491859913e-002  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  1.5000000000e+002
+battery: Battery1
+signal: FlightController:Ch4
+
+Component Type: SpeedController
+name: SpeedController4
+color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+currentRating: 13.4758
+massMargin-percentage-: 0
+position: -3.4924998879e-002 -6.0491859913e-002  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -1.5000000000e+002
+battery: Battery1
+signal: FlightController:Ch6
+
+Component Type: SpeedController
+name: SpeedController5
+color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+currentRating: 13.4758
+massMargin-percentage-: 0
+position: -6.9849997759e-002  0.0000000000e+000  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -9.0000000000e+001
+battery: Battery1
+signal: FlightController:Ch2
+
+Component Type: SpeedController
+name: SpeedController6
+color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+currentRating: 13.4758
+massMargin-percentage-: 0
+position: -3.4925013781e-002  6.0491830111e-002  1.9700028002e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -3.0000000000e+001
+battery: Battery1
+signal: FlightController:Ch3
+
+Component Type: PayloadMass
+name: PayloadMass
+color:  5.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+height-cm-: 13.97
+width-cm-: 13.97
+length-cm-: 27.94
+position:  0.0000000000e+000  0.0000000000e+000 -1.2000006437e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+mass: 1.5
