@@ -1,0 +1,345 @@
+Component Type: Transmitter
+name: Transmitter
+uid:
+trim:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+reverse: 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+travel:  1.0000000000e+002  4.0000000000e+001  1.0000000000e+002  5.0000000000e+001  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+exponential:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+author: Blade Team
+description: XBox controller configuration file
+
+Component Type: Airfoil
+name: WingAirfoil
+uid: subcexruoj
+visibility: 1
+author: Geometry data from UIUC Airfoil Coordinates Database, http://aerospace.illinois.edu/m-selig/ads/coord_database.html. Performance calculated using XFoil with Ncrit=9: http://web.mit.edu/drela/Public/web/xfoil/
+description: CLARK Y airfoil
+database: clarky
+
+Component Type: Airfoil
+name: StabilizerAirfoil
+uid: wspgjqtfej
+visibility: 1
+author: Geometry data from UIUC Airfoil Coordinates Database, http://aerospace.illinois.edu/m-selig/ads/coord_database.html. Performance calculated using XFoil with Ncrit=9: http://web.mit.edu/drela/Public/web/xfoil/
+description: NACA 0008 airfoil
+database: naca0008
+
+Component Type: Fuselage
+name: Fuselage
+uid: rkkocogqgj
+color:  5.8431373596e+001  5.8431373596e+001  5.8431373596e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+length:  2.2500000894e-002  3.5000000149e-002  9.4999998808e-002  9.4999998808e-002  4.2500001192e-001  7.1499997377e-001
+roundness-percentage-:  0.0000000000e+000  0.0000000000e+000  2.0000000298e-001  4.0000000596e-001  4.0000000596e-001  4.0000000596e-001  2.0000000298e-001
+height:  6.4000003040e-002  1.0899999738e-001  1.4000000060e-001  1.6699999571e-001  1.7700000107e-001  1.6300000250e-001  4.6999998391e-002
+width:  6.4000003040e-002  1.0000000149e-001  1.2999999523e-001  1.7800000310e-001  1.8999999762e-001  1.8999999762e-001  2.8000000864e-002
+tilt:  4.1999998093e+000  2.2400000095e+000  5.7399997711e+000  1.6799999475e+000 -9.8000001907e-001  0.0000000000e+000
+constructionMethod: Solid
+constructionMaterial: EPS Foam
+axialDragAugmentation: 150
+massMargin-percentage-: 0
+position:  0.0000000000e+000  4.1450610757e-001  0.0000000000e+000
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: FlightController
+name: FlightController
+uid: wxfnxpssjx
+color:  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+mass: 0.0366326
+HoverStabilizeYawP: 1
+HoverStabilizeRollP: 0.2
+HoverStabilizePitchP: 0.2
+HoverLevelRollP: 2
+HoverLevelPitchP: 2
+ForwardStabilizeYawP: 0.2
+ForwardStabilizeRollP: 0.2
+ForwardStabilizePitchP: 0.2
+ForwardLevelRollP: 2
+ForwardLevelPitchP: 2
+HoverMaxAngle: 35
+ForwardMaxAngle: 65
+HoverPitchTrim: 0
+ForwardPitchTrim: 0
+HoverThrottleTrim: 0
+TransitionSpeed: 15.5
+ForwardFlightAutoLevel: On
+position:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+gyroSensorNoiseAmplitude-degps-: 0
+accelSensorNoiseAmplitude-mps2-: 0
+gyroMotorNoiseAmplitude: 0
+accelMotorNoiseAmplitude: 0
+author: CQV
+description: Provides channel mixing and flight stabilization for VTOL aircraft of separate-lift-thrust (SLT) configuration.
+mass.updateMode:
+database: SLTVTOLController
+
+Component Type: StructuralComponent
+name: RightBoom
+uid: egowsptejx
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 1
+length:  9.4999998808e-001
+roundness-percentage-:  0.0000000000e+000  0.0000000000e+000
+height:  2.1999999881e-002  2.1999999881e-002
+width:  2.1999999881e-002  2.1999999881e-002
+bend:  0.0000000000e+000
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+massMargin-percentage-: 0
+position:  4.9619999528e-001  4.5762869716e-001  5.1246356219e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: StructuralComponent
+name: LeftBoom
+uid: dtasgrtxmq
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 1
+length:  9.4999998808e-001
+roundness-percentage-:  0.0000000000e+000  0.0000000000e+000
+height:  2.1999999881e-002  2.1999999881e-002
+width:  2.1999999881e-002  2.1999999881e-002
+bend:  0.0000000000e+000
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+massMargin-percentage-: 0
+position: -4.9619999528e-001  4.5762869716e-001  5.1246356219e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: SpeedController
+name: SpeedController
+uid: mceipirmyj
+color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+currentRating: 120
+massMargin-percentage-: 0
+position:  0.0000000000e+000  3.3300000429e-001  0.0000000000e+000
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  9.0000000000e+001
+battery: Battery
+signal: FlightController:ThrottleSignal
+
+Component Type: SpeedController
+name: FrontRightSpeedController
+uid: dvyybqvwzg
+color:  1.1764706373e+000  1.1764706373e+000  1.1764706373e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+currentRating: 60
+massMargin-percentage-: 0
+position:  4.9941706657e-001  4.4076639414e-001  4.2953513563e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+battery: Battery
+signal: FlightController:FrontRightMotor
+
+Component Type: SpeedController
+name: BackRightSpeedController
+uid: lmuyzrkfuk
+color:  1.1764706373e+000  1.1764706373e+000  1.1764706373e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+currentRating: 60
+massMargin-percentage-: 0
+position:  4.9941706657e-001 -4.6480000019e-001  4.2953513563e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+battery: Battery
+signal: FlightController:BackRightMotor
+
+Component Type: SpeedController
+name: BackLeftSpeedController
+uid: ztnktcpocu
+color:  1.1764706373e+000  1.1764706373e+000  1.1764706373e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+currentRating: 60
+massMargin-percentage-: 0
+position: -4.9939998984e-001 -4.6480000019e-001  4.2953513563e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+battery: Battery
+signal: FlightController:BackLeftMotor
+
+Component Type: SpeedController
+name: FrontLeftSpeedController
+uid: nraqqdulvq
+color:  1.1764706373e+000  1.1764706373e+000  1.1764706373e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+currentRating: 60
+massMargin-percentage-: 0
+position: -4.9779999256e-001  4.4076639414e-001  4.2953513563e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+battery: Battery
+signal: FlightController:FrontLeftMotor
+
+Component Type: Servo
+name: RightAileronServo
+uid: gsqyhdxoej
+color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+signal: FlightController:RollSignal
+reverse: 1
+rotationSpeed-revps-: 5
+size: Micro
+stepperMode: 0
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position:  8.3779376745e-001 -5.3264144808e-002  6.3460506499e-002
+rotation-euler-:  9.0000000000e+001  9.0000000000e+001  9.0000000000e+001
+
+Component Type: Servo
+name: LeftAileronServo
+uid: sxjreysnqr
+color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+signal: FlightController:RollSignal
+reverse: 0
+rotationSpeed-revps-: 5
+size: Micro
+stepperMode: 0
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position: -8.3780002594e-001 -5.3264144808e-002  6.3460506499e-002
+rotation-euler-:  9.0000000000e+001 -9.0000000000e+001 -9.0000000000e+001
+
+Component Type: Servo
+name: RightElevatorServo
+uid: izimevlfup
+color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+signal: FlightController:PitchSignal
+reverse: 0
+rotationSpeed-revps-: 5
+size: Micro
+stepperMode: 0
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position:  4.1066441685e-002 -9.1678410769e-001 -5.2552330308e-003
+rotation-euler-:  9.0000000000e+001  9.0000000000e+001  9.0000000000e+001
+
+Component Type: Servo
+name: LeftElevatorServo
+uid: zqhyahwonx
+color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+signal: FlightController:PitchSignal
+reverse: 0
+rotationSpeed-revps-: 5
+size: Micro
+stepperMode: 0
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position: -4.6234231442e-002 -9.1638255119e-001 -5.2999998443e-003
+rotation-euler-:  9.0000000000e+001 -9.0000000000e+001 -9.0000000000e+001
+
+Component Type: Servo
+name: RudderServo
+uid: irycoyegjo
+color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+signal: FlightController:YawSignal
+reverse: 0
+rotationSpeed-revps-: 5
+size: Micro
+stepperMode: 0
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position: -7.9092476517e-004 -7.7611041069e-001  1.1764679104e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Wing
+name: Wing
+uid: kytxchdpax
+color:  5.8431373596e+001  5.8431373596e+001  5.8431373596e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+semiSpan: 0
+leftSemiSpan: 0
+wingSpan:  6.6850000620e-001  3.9599999785e-001  9.3000002205e-002  4.5800000429e-002
+chord:  3.0000001192e-001  3.0000001192e-001  2.8200000525e-001  2.4760000408e-001  1.6459999979e-001
+sweep:  0.0000000000e+000 -3.6000001431e-001  1.4279999733e+001  5.3040000916e+001
+dihedral:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+twist:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+flapSize-percentage-:  1.5000000000e+001  2.5079999924e+001  2.1885000229e+001  1.5000000000e+001  1.5000000000e+001
+flapDeflection-deg-:  3.5000000000e+001  3.5000000000e+001  3.5000000000e+001  3.5000000000e+001
+constructionMethod: Solid
+constructionMaterial: EPP Foam
+meshResolution: 7
+disableNonlinearAero: 0
+massMargin-percentage-: 0
+dragAugmentation-percent-: 150
+position:  0.0000000000e+000  5.2992097335e-004  7.0762120187e-002
+rotation-euler-:  2.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+airfoils: WingAirfoil WingAirfoil WingAirfoil WingAirfoil WingAirfoil
+rightWingServos: None RightAileronServo None None
+leftWingServos: None LeftAileronServo None None
+mass: 3.661
+mass.updateMode: Off
+
+Component Type: Wing
+name: HorizontalStabilizer
+uid: tguhlrncsh
+color:  5.8431373596e+001  5.8431373596e+001  5.8431373596e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+semiSpan: 0
+leftSemiSpan: 0
+wingSpan:  5.4800000042e-002  2.6100000739e-001  3.0999999493e-002
+chord:  2.1780000627e-001  2.0939999819e-001  1.7640000582e-001  1.7039999366e-001
+sweep:  5.7600002289e+000  5.2800002098e+000  6.5999999046e+000
+dihedral:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+twist:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+flapSize-percentage-:  1.5000000000e+001  2.5170000076e+001  2.9534999847e+001  1.5000000000e+001
+flapDeflection-deg-:  3.5000000000e+001  3.5000000000e+001  3.5000000000e+001
+constructionMethod: Solid
+constructionMaterial: EPP Foam
+meshResolution: 7
+disableNonlinearAero: 0
+massMargin-percentage-: 0
+dragAugmentation-percent-: 150
+position:  0.0000000000e+000 -7.9244148731e-001 -8.3101179916e-004
+rotation-euler-: -2.5000000000e+000  0.0000000000e+000  0.0000000000e+000
+airfoils: StabilizerAirfoil StabilizerAirfoil StabilizerAirfoil StabilizerAirfoil
+rightWingServos: None RightElevatorServo None
+leftWingServos: None LeftElevatorServo None
+mass: 0.254
+mass.updateMode: Off
+
+Component Type: Wing
+name: VerticalStabilizer
+uid: oxbegqiyke
+color:  5.8431373596e+001  5.8431373596e+001  5.8431373596e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+semiSpan: 1
+leftSemiSpan: 0
+wingSpan:  2.3659999669e-001  3.9999999106e-002
+chord:  2.6879999042e-001  1.9740000367e-001  1.8240000308e-001
+sweep:  8.6400003433e+000  1.0260000229e+001
+dihedral:  0.0000000000e+000  0.0000000000e+000
+twist:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+flapSize-percentage-:  2.3000000000e+001  2.3000000000e+001  2.3000000000e+001
+flapDeflection-deg-:  3.5000000000e+001  3.5000000000e+001
+constructionMethod: Solid
+constructionMaterial: EPP Foam
+meshResolution: 7
+disableNonlinearAero: 0
+massMargin-percentage-: 45
+dragAugmentation-percent-: 150
+position:  0.0000000000e+000 -7.2284686565e-001  3.7130765617e-002
+rotation-euler-:  0.0000000000e+000 -9.0000000000e+001  0.0000000000e+000
+airfoils: StabilizerAirfoil StabilizerAirfoil StabilizerAirfoil
+rightWingServos: RudderServo None
+mass: 0.127
+mass.updateMode: Off

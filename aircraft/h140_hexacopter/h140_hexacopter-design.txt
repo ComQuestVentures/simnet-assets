@@ -1,5 +1,16 @@
+Component Type: Transmitter
+name: Transmitter
+uid:
+trim:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+reverse: 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+travel:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+exponential:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+author: Blade Team
+description: XBox controller configuration file
+
 Component Type: Battery
 name: Battery1
+uid: suubgujlmf
 color:  0.0000000000e+000  0.0000000000e+000  5.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -15,6 +26,7 @@ rotation-euler-:  0.0000000000e+000  9.0000000000e+001  0.0000000000e+000
 
 Component Type: Propeller
 name: Propeller1
+uid: xdjfflubhl
 color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
 material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -33,6 +45,7 @@ rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 
 Component Type: Propeller
 name: Propeller2
+uid: cvndzjvmww
 color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
 material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -51,6 +64,7 @@ rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 
 Component Type: Propeller
 name: Propeller3
+uid: qxfeavuyay
 color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
 material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -69,6 +83,7 @@ rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 
 Component Type: Propeller
 name: Propeller4
+uid: lwbbgtfiqj
 color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
 material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -87,6 +102,7 @@ rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 
 Component Type: Propeller
 name: Propeller5
+uid: qcauerojmf
 color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
 material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -105,6 +121,7 @@ rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 
 Component Type: Propeller
 name: Propeller6
+uid: kmxcyorzln
 color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
 material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -123,6 +140,7 @@ rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 
 Component Type: ElectricMotor
 name: Motor1
+uid: dugkzwnauo
 color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -138,6 +156,7 @@ propulsor: Propeller1
 
 Component Type: ElectricMotor
 name: Motor2
+uid: wtidhbigfl
 color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -153,6 +172,7 @@ propulsor: Propeller2
 
 Component Type: ElectricMotor
 name: Motor3
+uid: zflymwqvhn
 color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -168,6 +188,7 @@ propulsor: Propeller3
 
 Component Type: ElectricMotor
 name: Motor4
+uid: gkjtidngia
 color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -183,6 +204,7 @@ propulsor: Propeller4
 
 Component Type: ElectricMotor
 name: Motor5
+uid: hzqrgsntzd
 color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -198,6 +220,7 @@ propulsor: Propeller5
 
 Component Type: ElectricMotor
 name: Motor6
+uid: jcgcrcugdf
 color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -211,8 +234,52 @@ servo: SpeedController6
 speedController: SpeedController6
 propulsor: Propeller6
 
+Component Type: FlightController
+name: FlightController
+uid: cdxjrguymi
+color:  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+mass: 0.0366325
+Configuration: Hexarotor X
+StabilizationMode: Position Hold
+Stabilize_PitchRollYaw_MaxRate: 220
+Stabilize_PitchRoll_P: 0.2
+Stabilize_PitchRoll_I: 0.05
+Stabilize_PitchRoll_D: 0.002
+Stabilize_Yaw_P: 0.15
+Stabilize_Yaw_I: 0
+Stabilize_Yaw_D: 0
+AutoLevel_PitchRoll_MaxAngle: 40
+AutoLevel_PitchRoll_P: 3.5
+AutoLevel_PitchRoll_I: 0
+AutoLevel_PitchRoll_D: 0.05
+PosHold_PitchRoll_MaxSpeed: 12
+PosHold_PitchRoll_P: 0.1
+PosHold_PitchRoll_I: 0
+PosHold_PitchRoll_D: 0.005
+AltitudeHold_MaxSpeed: 4
+AltitudeHold_P: 1.5
+AltitudeHold_I: 0
+AltitudeHold_D: 0.1
+HeadingHold_MaxRate: 120
+HeadingHold_P: 0.8
+HeadingHold_I: 0
+HeadingHold_D: 0.5
+position:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+gyroSensorNoiseAmplitude-degps-: 0
+accelSensorNoiseAmplitude-mps2-: 0
+gyroMotorNoiseAmplitude: 0
+accelMotorNoiseAmplitude: 0
+author: CQV Team
+description: Provides channel mixing and flight stabilization for multicopter aircraft of various configurations.  Configuration names, channel ordering and propeller rotation directions follow the PX4 standard.
+mass.updateMode:
+database: MulticopterController
+
 Component Type: StructuralComponent
 name: Arm1
+uid: ybwbrqnqdg
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -230,6 +297,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  3.0000001907e+001
 
 Component Type: StructuralComponent
 name: Arm2
+uid: phmapbszvf
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -247,6 +315,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  9.0000000000e+001
 
 Component Type: StructuralComponent
 name: Arm3
+uid: xjporsnpmq
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -264,6 +333,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  1.5000000000e+002
 
 Component Type: StructuralComponent
 name: Arm4
+uid: xqokirzwwm
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -281,6 +351,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -1.5000000000e+002
 
 Component Type: StructuralComponent
 name: Arm5
+uid: ztesarmlao
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -298,6 +369,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -9.0000000000e+001
 
 Component Type: StructuralComponent
 name: Arm6
+uid: gmumbvinif
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -315,6 +387,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -3.0000000000e+001
 
 Component Type: StructuralComponent
 name: Hub
+uid: uvwoblicil
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -332,6 +405,7 @@ rotation-euler-: -9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 
 Component Type: StructuralComponent
 name: Leg1
+uid: ppbpmydwhg
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -349,6 +423,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  9.0000000000e+001
 
 Component Type: StructuralComponent
 name: Leg2
+uid: fpqzpjnhsj
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -366,6 +441,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -9.0000000000e+001
 
 Component Type: StructuralComponent
 name: Leg3
+uid: audgdjcszg
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -383,6 +459,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  9.0000000000e+001
 
 Component Type: StructuralComponent
 name: Leg4
+uid: iclfnkggne
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -400,6 +477,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -9.0000000000e+001
 
 Component Type: SpeedController
 name: SpeedController1
+uid: vpnlepxdpf
 color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -412,6 +490,7 @@ signal: FlightController:Ch5
 
 Component Type: SpeedController
 name: SpeedController2
+uid: mwqpdvnibc
 color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -424,6 +503,7 @@ signal: FlightController:Ch1
 
 Component Type: SpeedController
 name: SpeedController3
+uid: moipnepsbf
 color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -436,6 +516,7 @@ signal: FlightController:Ch4
 
 Component Type: SpeedController
 name: SpeedController4
+uid: wbmdyrrsrd
 color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -448,6 +529,7 @@ signal: FlightController:Ch6
 
 Component Type: SpeedController
 name: SpeedController5
+uid: hczbjprmnj
 color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -460,6 +542,7 @@ signal: FlightController:Ch2
 
 Component Type: SpeedController
 name: SpeedController6
+uid: bttgnjfnmw
 color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -472,6 +555,7 @@ signal: FlightController:Ch3
 
 Component Type: PayloadMass
 name: PayloadMass
+uid: ijtraskeon
 color:  5.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -481,3 +565,4 @@ length-cm-: 27.94
 position:  0.0000000000e+000  0.0000000000e+000 -1.2000006437e-001
 rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 mass: 1.5
+mass.updateMode:

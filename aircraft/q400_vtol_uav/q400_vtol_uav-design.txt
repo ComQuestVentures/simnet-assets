@@ -1,11 +1,31 @@
+name: Transmitter
+uid:
+trim:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000 -1.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+reverse: 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+travel:  1.0000000000e+002  3.0000000000e+001  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+exponential:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+author: Blade Team
+description: XBox controller configuration file
+
+Component Type: Airfoil
+name: SymmetricAirfoil
+uid: kygbfkwspa
+visibility: 1
+author: Geometry data from UIUC Airfoil Coordinates Database, http://aerospace.illinois.edu/m-selig/ads/coord_database.html. Performance calculated using XFoil with Ncrit=9: http://web.mit.edu/drela/Public/web/xfoil/
+description: NACA 0008 airfoil
+database: naca0008
+
 Component Type: Airfoil
 name: WingAirfoil
+uid: mqcvyumdeo
 visibility: 1
+author: Geometry data from UIUC Airfoil Coordinates Database, http://aerospace.illinois.edu/m-selig/ads/coord_database.html. Performance calculated using XFoil with Ncrit=9: http://web.mit.edu/drela/Public/web/xfoil/
 description: Gottingen 233 (MVA CA4) airfoil
 database: goe233
 
 Component Type: Battery
 name: Battery
+uid: eelaiuktfs
 color:  0.0000000000e+000  0.0000000000e+000  5.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -22,11 +42,12 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 
 Component Type: FuelTank
 name: FuelTank
+uid: zozzirmssi
 color:  5.0000000000e+001  5.0000000000e+001  5.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
 fuelType: gas
-capacity_oz_: 70
+capacity_oz_: 50
 massMargin-percentage-: 0
 widthToLength-percent-: 50
 heightToLength-percent-: 50
@@ -35,11 +56,12 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 
 Component Type: Propeller
 name: Propeller
+uid: xwpmvsnrmh
 color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
 material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
 pusher: 1
-type: Full_Scale_3_Blade
+type: APC_SlowFlyer
 folding: 0
 diameter-in-: 19
 pitch-in-: 15
@@ -53,11 +75,12 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  1.8000000000e+002
 
 Component Type: Propeller
 name: FRPropeller
+uid: tqveiujbtx
 color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
 material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
 pusher: 1
-type: Full_Scale_3_Blade
+type: APC_SlowFlyer
 folding: 0
 diameter-in-: 15
 pitch-in-: 5
@@ -71,11 +94,12 @@ rotation-euler-: -9.0000000000e+001  1.0000000000e+001  0.0000000000e+000
 
 Component Type: Propeller
 name: FLPropeller
+uid: kdnkzaweym
 color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
 material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
 pusher: 1
-type: Full_Scale_3_Blade
+type: APC_SlowFlyer
 folding: 0
 diameter-in-: 15
 pitch-in-: 5
@@ -89,11 +113,12 @@ rotation-euler-: -9.0000000000e+001 -1.0000000000e+001  0.0000000000e+000
 
 Component Type: Propeller
 name: BLPropeller
+uid: vfjhhecrjg
 color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
 material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
 pusher: 0
-type: Full_Scale_3_Blade
+type: APC_SlowFlyer
 folding: 0
 diameter-in-: 15
 pitch-in-: 5
@@ -107,11 +132,12 @@ rotation-euler-:  9.0000000000e+001 -1.0000000000e+001  0.0000000000e+000
 
 Component Type: Propeller
 name: BRPropeller
+uid: fdkkcvsaua
 color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
 material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
 pusher: 0
-type: Full_Scale_3_Blade
+type: APC_SlowFlyer
 folding: 0
 diameter-in-: 15
 pitch-in-: 5
@@ -125,6 +151,7 @@ rotation-euler-:  9.0000000000e+001  1.0000000000e+001  0.0000000000e+000
 
 Component Type: Fuselage
 name: Fuselage
+uid: gndyaezube
 color:  5.9215686798e+001  5.9215686798e+001  5.9215686798e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -142,6 +169,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 
 Component Type: ElectricMotor
 name: FRMotor
+uid: lmxhedzchs
 color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -165,6 +193,7 @@ noLoadCurrentVoltage.updateMode: Off
 
 Component Type: ElectricMotor
 name: FLMotor
+uid: wkmrsllmyo
 color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -186,6 +215,7 @@ noLoadCurrent.updateMode: Off
 
 Component Type: ElectricMotor
 name: BLMotor
+uid: mdmbskamwm
 color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -207,6 +237,7 @@ noLoadCurrent.updateMode: Off
 
 Component Type: ElectricMotor
 name: BRMotor
+uid: dxbsqnusae
 color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -228,6 +259,7 @@ noLoadCurrent.updateMode: Off
 
 Component Type: GasEngine
 name: GasEngine
+uid: equxryxbae
 color:  7.5000000000e+001  7.5000000000e+001  7.5000000000e+001
 material:  6.0000000000e+000  6.0000000000e+000  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -246,8 +278,44 @@ fuelTank: FuelTank
 author: CQV Team. Data obtained from manufacturer.
 description: O.S. Engine
 
+Component Type: FlightController
+name: FlightController
+uid: ilvsyjudht
+color:  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+mass: 0.0366326
+HoverStabilizeYawP: 1
+HoverStabilizeRollP: 0.2
+HoverStabilizePitchP: 0.2
+HoverLevelRollP: 2
+HoverLevelPitchP: 2
+ForwardStabilizeYawP: 0.2
+ForwardStabilizeRollP: 0.2
+ForwardStabilizePitchP: 0.2
+ForwardLevelRollP: 2
+ForwardLevelPitchP: 2
+HoverMaxAngle: 35
+ForwardMaxAngle: 60
+HoverPitchTrim: 0.086
+ForwardPitchTrim: -0.136
+HoverThrottleTrim: 0
+TransitionSpeed: 17.5
+ForwardFlightAutoLevel: On
+position:  0.0000000000e+000  2.3999999464e-001 -9.0296991169e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+gyroSensorNoiseAmplitude-degps-: 0
+accelSensorNoiseAmplitude-mps2-: 0
+gyroMotorNoiseAmplitude: 0
+accelMotorNoiseAmplitude: 0
+author: CQV
+description: Provides channel mixing and flight stabilization for VTOL aircraft of separate-lift-thrust (SLT) configuration.
+mass.updateMode:
+database: SLTVTOLController
+
 Component Type: StructuralComponent
 name: LeftBoom
+uid: kjzidqeoxv
 color:  5.9215686798e+001  5.9215686798e+001  5.9215686798e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -267,6 +335,7 @@ collision.updateMode: Off
 
 Component Type: StructuralComponent
 name: RightBoom
+uid: ovakslinoy
 color:  5.9215686798e+001  5.9215686798e+001  5.9215686798e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -286,6 +355,7 @@ collision.updateMode: Off
 
 Component Type: StructuralComponent
 name: RightGear
+uid: edzyxthgec
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -303,6 +373,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  9.0000000000e+001
 
 Component Type: StructuralComponent
 name: LeftGear
+uid: cfrqnngslf
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -320,6 +391,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -9.0000000000e+001
 
 Component Type: StructuralComponent
 name: FrontGear
+uid: slrzaedpco
 color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -337,10 +409,11 @@ rotation-euler-:  9.0000000000e+001 -2.0520000458e+001  9.0000000000e+001
 
 Component Type: SpeedController
 name: FRSpeedController
+uid: qnhgtjdosz
 color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
-currentRating: 250
+currentRating: 200
 massMargin-percentage-: 0
 position:  4.9508504570e-002  1.1571958661e-001 -9.0000003576e-002
 rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
@@ -351,10 +424,11 @@ mass.updateMode: Off
 
 Component Type: SpeedController
 name: FLSPeedController
+uid: dpfzgfziqa
 color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
-currentRating: 250
+currentRating: 200
 massMargin-percentage-: 0
 position: -4.6826187521e-002  1.1304892600e-001 -9.0000003576e-002
 rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
@@ -365,10 +439,11 @@ mass.updateMode: Off
 
 Component Type: SpeedController
 name: BRSpeedController
+uid: qppgvxpkjj
 color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
-currentRating: 250
+currentRating: 200
 massMargin-percentage-: 0
 position:  5.2173174918e-002 -2.7733474970e-002 -9.0000003576e-002
 rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
@@ -379,10 +454,11 @@ mass.updateMode: Off
 
 Component Type: SpeedController
 name: BLSpeedController
+uid: qmlwgvwwvm
 color:  0.0000000000e+000  8.0000000000e+000  0.0000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
-currentRating: 250
+currentRating: 200
 massMargin-percentage-: 0
 position: -4.5493829995e-002 -3.0433680862e-002 -9.0000003576e-002
 rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
@@ -393,6 +469,7 @@ mass.updateMode: Off
 
 Component Type: Servo
 name: RightAileronServo
+uid: zabpiqxbwp
 color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -408,6 +485,7 @@ rotation-euler-:  0.0000000000e+000  1.8000000000e+002  0.0000000000e+000
 
 Component Type: Servo
 name: LeftAileronServo
+uid: xolgssqvyw
 color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -423,6 +501,7 @@ rotation-euler-:  0.0000000000e+000  1.8000000000e+002  0.0000000000e+000
 
 Component Type: Servo
 name: ElevatorServo
+uid: tmpwxnucwu
 color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -438,6 +517,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 
 Component Type: Servo
 name: RightRudderServo
+uid: nvqfiivvdh
 color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -453,6 +533,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 
 Component Type: Servo
 name: ThrottleServo
+uid: ksvwzklibg
 color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -468,6 +549,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 
 Component Type: Servo
 name: LeftRudderServo
+uid: uxwqaduaza
 color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -483,6 +565,7 @@ rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
 
 Component Type: Wing
 name: Wing
+uid: fhgelpjcfk
 color:  5.9215686798e+001  5.9215686798e+001  5.9215686798e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
@@ -510,6 +593,7 @@ leftWingServos: None None LeftAileronServo
 
 Component Type: Wing
 name: Tail
+uid: gruuzpbbzf
 color:  5.9215686798e+001  5.9215686798e+001  5.9215686798e+001
 material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
 visibility: 1
