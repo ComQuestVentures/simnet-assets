@@ -1,0 +1,858 @@
+Component Type: ComponentGroup
+name: MainLandingGear
+position:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+components: MainLandingGearRight MainLandingGearLeft MainWheelRight MainWheelLeft
+
+Component Type: ComponentGroup
+name: NoseGear1
+position:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+components: NoseGear NoseWheel NoseWheelHinge
+
+Component Type: Transmitter
+name: Transmitter
+trim:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000 -2.5000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+reverse: 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+travel:  1.0000000000e+002  2.0000000000e+001  4.5000000000e+001  4.0000000000e+001  1.0000000000e+002  2.5000000000e+001  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+exponential:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Airfoil
+name: SymmetricAirfoil
+visibility: 1
+database: naca0008
+
+Component Type: Airfoil
+name: WingAirfoil
+visibility: 1
+database: clarky
+
+Component Type: FuelTank
+name: FuelTank
+color:  1.0000000000e+000  1.0000000000e+000  1.0000000000e+000
+material:  1.0000000000e+002  1.0000000000e+002  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+fuelType: nitro
+capacity_oz_: 8
+massMargin-percentage-: 0
+position: -1.5048898058e-003  1.5533182025e-001  8.0768391490e-003
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+useVisualModels: 1
+
+Component Type: Propeller
+name: Propeller
+color:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+material:  1.0000000000e+002  1.0000000000e+002  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+pusher: 0
+type: Custom
+clockwise: 1
+hubNormalizedRadius-percent-: 10
+massMargin-percentage-: 0
+gearRatio: 1
+position:  0.0000000000e+000  4.2382112145e-001  1.1199999601e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+database: MasterAirscrew_11x10_Measured
+
+Component Type: Fuselage
+name: Fuselage
+color:  3.7647060394e+001  4.5882354736e+001  9.9607841492e+001
+material:  4.4000000000e+001  7.2000000000e+001  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+length:  1.3940000534e-001  1.9850000739e-001  2.5139999390e-001  6.4539998770e-001
+roundness-percentage-:  5.6000000238e-001  5.6000000238e-001  5.6000000238e-001  5.6000000238e-001  5.6000000238e-001
+height:  1.0499999672e-001  1.0499999672e-001  1.6349999607e-001  1.6349999607e-001  6.5999999642e-002
+width:  9.7000002861e-002  9.7000002861e-002  9.7000002861e-002  9.7000002861e-002  5.2499998361e-002
+tilt: -1.0000000000e+000  6.1999998093e+000 -1.0000000000e+000 -3.8800001144e+000
+constructionMethod: Semi-monocoque
+constructionMaterial: Wood
+axialDragAugmentation: 150
+massMargin-percentage-: 0
+position:  0.0000000000e+000  4.0098169446e-001  6.2494697049e-003
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+useVisualModels: 1
+
+Component Type: Wheel
+name: NoseWheel
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  1.0000000000e+002  3.1000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+diameter: 0.074
+massMargin-percentage-: 0
+position: -8.2151032984e-003  3.0138087273e-001 -2.2879230976e-001
+rotation-euler-:  5.0118099898e-004  1.2300004528e-005  9.2261299133e+001
+useVisualModels: 1
+
+Component Type: Wheel
+name: MainWheelRight
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  1.0000000000e+002  3.1000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+diameter: 0.074
+massMargin-percentage-: 0
+position:  2.5999999046e-001 -1.3160000741e-001 -2.2599999607e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -9.0000000000e+001
+useVisualModels: 1
+
+Component Type: Wheel
+name: MainWheelLeft
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  1.0000000000e+002  3.1000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+diameter: 0.074
+massMargin-percentage-: 0
+position: -2.5999999046e-001 -1.3160000741e-001 -2.2599999607e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -9.0000000000e+001
+useVisualModels: 1
+
+Component Type: GasEngine
+name: Engine
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  6.0000000000e+000  6.0000000000e+000  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+massMargin-percentage-: 0
+position:  0.0000000000e+000  4.2382112145e-001  1.1199999601e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+servo: ThrottleServo
+propulsor: Propeller
+fuelTank: FuelTank
+database: OS_46AX-II_7cc
+
+Component Type: StructuralComponent
+name: MainLandingGearRight
+color:  2.5098039627e+001  2.5098039627e+001  2.5098039627e+001
+material:  4.2000000000e+001  5.0000000000e+001  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 3
+length:  5.0000000745e-002  2.3319999874e-001  4.3999999762e-002
+roundness-percentage-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+height:  6.0000000522e-003  6.0000000522e-003  6.0000000522e-003  6.0000000522e-003
+width:  3.9999999106e-002  3.9999999106e-002  3.9999999106e-002  3.9999999106e-002
+bend:  0.0000000000e+000 -3.6000000000e+001 -4.5000000000e+001
+constructionMethod: Solid
+constructionMaterial: Plastic
+massMargin-percentage-: 0
+position:  0.0000000000e+000 -1.2899999321e-001 -5.9999998659e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  9.0000000000e+001
+collision:
+collision.updateMode: Off
+
+Component Type: StructuralComponent
+name: MainLandingGearLeft
+color:  2.5098039627e+001  2.5098039627e+001  2.5098039627e+001
+material:  4.2000000000e+001  5.0000000000e+001  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 3
+length:  5.0000000745e-002  2.3319999874e-001  4.3999999762e-002
+roundness-percentage-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+height:  6.0000000522e-003  6.0000000522e-003  6.0000000522e-003  6.0000000522e-003
+width:  3.9999999106e-002  3.9999999106e-002  3.9999999106e-002  3.9999999106e-002
+bend:  0.0000000000e+000 -3.6000000000e+001 -4.5000000000e+001
+constructionMethod: Solid
+constructionMaterial: Plastic
+massMargin-percentage-: 0
+position:  0.0000000000e+000 -1.2899999321e-001 -5.9999998659e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000 -9.0000000000e+001
+collision:
+collision.updateMode: Off
+
+Component Type: StructuralComponent
+name: NoseGear
+color:  2.5098039627e+001  2.5098039627e+001  2.5098039627e+001
+material:  4.2000000000e+001  5.0000000000e+001  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+segmentCount: 1
+length:  2.0149999857e-001
+roundness-percentage-:  0.0000000000e+000  0.0000000000e+000
+height:  1.4999999665e-002  1.4999999665e-002
+width:  1.4999999665e-002  1.4999999665e-002
+bend:  0.0000000000e+000
+constructionMethod: Solid
+constructionMaterial: Plastic
+massMargin-percentage-: 0
+position:  8.1040607765e-003  3.0287176371e-001 -3.3730212599e-002
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+collision:
+collision.updateMode: Off
+
+Component Type: Hinge
+name: NoseWheelHinge
+color:  0.0000000000e+000  1.0000000000e+000  2.9999999329e-002
+material:  1.0000000000e+001  1.0000000000e+002  1.0000000000e+002  5.0000000000e+001  0.0000000000e+000
+visibility: 0
+position:  0.0000000000e+000  3.0000001192e-001 -1.5000000596e-001
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+servo: WheelServoServo
+trim: 0
+travel: 180
+connectedComponents: NoseWheel
+connectedHinges:
+reverse: 0
+useVisualModels: 1
+
+Component Type: Servo
+name: RightAileronServo
+color:  5.0000000745e-002  5.0000000745e-002  5.0000000745e-002
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+signal: Transmitter:Roll
+reverse: 1
+rotationSpeed-revps-: 3.33
+size: Standard
+stepperMode: 0
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position:  6.5249997377e-001 -1.3000000268e-002  1.3719999790e-001
+rotation-euler-:  0.0000000000e+000  1.7700000000e+002  0.0000000000e+000
+
+Component Type: Servo
+name: LeftAileronServo
+color:  5.0000000745e-002  5.0000000745e-002  5.0000000745e-002
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+signal: Transmitter:Roll
+reverse: 0
+rotationSpeed-revps-: 5
+size: Standard
+stepperMode: 0
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position: -6.5250533819e-001 -1.3010473922e-002  1.3724870980e-001
+rotation-euler-:  0.0000000000e+000 -1.7700000000e+002  0.0000000000e+000
+
+Component Type: Servo
+name: ElevatorServo
+color:  5.0000000745e-002  5.0000000745e-002  5.0000000745e-002
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+signal: Transmitter:Pitch
+reverse: 0
+rotationSpeed-revps-: 5
+size: Standard
+stepperMode: 0
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position:  2.8317390010e-002  2.1560518071e-003 -3.6555125246e-012
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  1.8000000000e+002
+
+Component Type: Servo
+name: RudderServo
+color:  5.0000000745e-002  5.0000000745e-002  5.0000000745e-002
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+signal: Transmitter:Yaw
+reverse: 0
+rotationSpeed-revps-: 5
+size: Standard
+stepperMode: 0
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position: -2.7000000700e-002  1.0780252051e-003  3.6555125246e-012
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  1.8000000000e+002
+
+Component Type: Servo
+name: ThrottleServo
+color:  5.0000000745e-002  5.0000000745e-002  5.0000000745e-002
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+signal: Transmitter:Throttle
+reverse: 0
+rotationSpeed-revps-: 5
+size: Standard
+stepperMode: 0
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Servo
+name: WheelServoServo
+color:  5.0000000745e-002  5.0000000745e-002  5.0000000745e-002
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+signal: Transmitter:Yaw
+reverse: 1
+rotationSpeed-revps-: 5
+size: Standard
+stepperMode: 0
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Wing
+name: MainWing
+color:  3.7647060394e+001  4.5882354736e+001  9.9215682983e+001
+material:  6.8000000000e+001  2.8000000000e+001  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+semiSpan: 0
+leftSemiSpan: 0
+wingSpan:  4.2199999094e-001  6.3639998436e-001
+chord:  2.7399998903e-001  2.7399998903e-001  2.7399998903e-001
+sweep:  0.0000000000e+000  0.0000000000e+000
+dihedral:  4.0000000000e+000  4.0000000000e+000
+twist:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+flapSize-percentage-:  1.5000000000e+001  1.5000000000e+001  1.5000000000e+001
+constructionMethod: Semi-monocoque
+constructionMaterial: Wood
+meshResolution: 7
+disableNonlinearAero: 0
+massMargin-percentage-: 0
+position:  0.0000000000e+000  1.0499999858e-002  9.0000003576e-002
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+airfoils: WingAirfoil WingAirfoil WingAirfoil
+rightWingServos: None RightAileronServo
+leftWingServos: None LeftAileronServo
+author: Blade Team
+description: The main wing.
+useVisualModels: 1
+
+Component Type: Wing
+name: HorizontalStab
+color:  3.7647060394e+001  4.5882354736e+001  9.9215682983e+001
+material:  6.8000000000e+001  2.8000000000e+001  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+semiSpan: 0
+leftSemiSpan: 0
+wingSpan:  2.8600001335e-001
+chord:  1.9099999964e-001  1.2399999797e-001
+sweep:  9.8000001907e+000
+dihedral:  0.0000000000e+000
+twist:  0.0000000000e+000  0.0000000000e+000
+flapSize-percentage-:  2.5000000000e+001  2.5000000000e+001
+constructionMethod: Semi-monocoque
+constructionMaterial: Wood
+meshResolution: 7
+disableNonlinearAero: 0
+massMargin-percentage-: 0
+position:  0.0000000000e+000 -7.7270001173e-001 -4.0000001900e-003
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+airfoils: SymmetricAirfoil SymmetricAirfoil
+rightWingServos: ElevatorServo
+leftWingServos: ElevatorServo
+useVisualModels: 1
+
+Component Type: Wing
+name: VerticalStab
+color:  3.7647060394e+001  4.5882354736e+001  9.9215682983e+001
+material:  6.8000000000e+001  2.8000000000e+001  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: 1
+semiSpan: 1
+leftSemiSpan: 0
+wingSpan:  2.6100000739e-001
+chord:  3.5299998522e-001  9.6000000834e-002
+sweep:  5.0599998474e+001
+dihedral:  0.0000000000e+000
+twist:  0.0000000000e+000  0.0000000000e+000
+flapSize-percentage-:  2.0000000000e+001  2.0000000000e+001
+constructionMethod: Semi-monocoque
+constructionMaterial: Wood
+meshResolution: 7
+disableNonlinearAero: 0
+massMargin-percentage-: 0
+position:  9.9999997474e-005 -6.3819998503e-001 -5.0999999046e-002
+rotation-euler-:  0.0000000000e+000 -9.0000000000e+001  0.0000000000e+000
+airfoils: SymmetricAirfoil SymmetricAirfoil
+rightWingServos: RudderServo
+useVisualModels: 1
+12-07-2022_13-47-16 [INFO] Aircraft: Loaded Trainer.
+12-07-2022_13-47-16 [COMMAND] Aircraft: Set velocity_world-mps- property from ' 0.0000000000e+000  0.0000000000e+000  0.000000000...' to '0 15 0 '.
+12-07-2022_13-47-16 [COMMAND] Aircraft: Set positionZ_world-m- property from '0.283287' to '1000'.
+12-07-2022_13-47-16 [COMMAND] Aircraft: Set state.updateMode property from 'Off' to 'On'.
+12-07-2022_13-47-17 [INFO] Workspace: Performance benchmark results: 46.64%
+12-07-2022_13-47-17 [COMMAND] Aircraft: Set state.updateMode property from 'On' to 'Off'.
+12-07-2022_13-47-17 [COMMAND] Aircraft: Set workingDirectory property from 'Workspace' to 'V:\blade_release.hg\Workspaces\CQV_Simnet'.
+12-07-2022_13-47-17 [COMMAND] Environment: Set workingDirectory property from 'Workspace' to 'V:\blade_release.hg\Workspaces\CQV_Simnet'.
+
+Component Type: Transmitter
+name: Transmitter
+uid:
+trim:   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+reverse: 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+travel:   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02
+exponential:   6.00000000000000e+01   2.00000019073486e+01   5.00000000000000e+01   5.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+deadzone:   5.00000095367432e+00   5.00000095367432e+00   5.00000095367432e+00   5.00000095367432e+00   5.00000000000000e+00   5.00000000000000e+00   1.00000009536743e+01   1.50000009536743e+01   1.00000009536743e+01   5.00000000000000e+00   5.00000000000000e+00   5.00000000000000e+00   5.00000000000000e+00   5.00000000000000e+00
+author: Blade Team
+description: XBox controller configuration file
+
+Component Type: Battery
+name: Battery1
+uid: zcmtyvuzkc
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+cells: 6
+capacity_mAh_: 15320
+cRating: 20
+massMargin-percentage-: 0
+parallelCount: 1
+widthToLength-percent-: 57.81
+heightToLength-percent-: 46.91
+position:  -2.21690488189097e-09  -2.79279891401529e-02  -5.83019442856312e-02
+rotation-euler-:   0.00000000000000e+00   9.00000000000000e+01   0.00000000000000e+00
+specificEnergy: 193
+specificEnergy.updateMode: Off
+
+Component Type: Propeller
+name: Propeller1
+uid: bikfbivfzb
+color:   4.00000000000000e+01   4.00000000000000e+01   4.00000000000000e+01
+material:   1.00000000000000e+02   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+pusher: False
+type: APC_ThinElectric
+folding: False
+variablePitch: False
+diameter-in-: 17
+pitch-in-: 6
+bladeCount: 2
+clockwise: False
+hubNormalizedRadius-percent-: 5
+massMargin-percentage-: 0
+gearRatio: 1
+position:   2.37510740756989e-01   2.34773799777031e-01   1.08633600175381e-01
+rotation-euler-:   9.50000000000000e+01  -5.00000000000000e+00   0.00000000000000e+00
+
+Component Type: Propeller
+name: Propeller2
+uid: clhsemubrp
+color:   4.00000000000000e+01   4.00000000000000e+01   4.00000000000000e+01
+material:   1.00000000000000e+02   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+pusher: False
+type: APC_ThinElectric
+folding: False
+variablePitch: False
+diameter-in-: 17
+pitch-in-: 6
+bladeCount: 2
+clockwise: True
+hubNormalizedRadius-percent-: 5
+massMargin-percentage-: 0
+gearRatio: 1
+position:   2.37527921795845e-01  -2.32516631484032e-01   1.11404411494732e-01
+rotation-euler-:   8.50000000000000e+01  -5.00000000000000e+00   0.00000000000000e+00
+
+Component Type: Propeller
+name: Propeller3
+uid: kuxoowcrpu
+color:   4.00000000000000e+01   4.00000000000000e+01   4.00000000000000e+01
+material:   1.00000000000000e+02   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+pusher: False
+type: APC_ThinElectric
+folding: False
+variablePitch: False
+diameter-in-: 17
+pitch-in-: 6
+bladeCount: 2
+clockwise: False
+hubNormalizedRadius-percent-: 5
+massMargin-percentage-: 0
+gearRatio: 1
+position:  -2.39658549427986e-01  -2.34830230474472e-01   1.11885808408260e-01
+rotation-euler-:   8.50000000000000e+01   5.00000000000000e+00   0.00000000000000e+00
+
+Component Type: Propeller
+name: Propeller4
+uid: ofkyckwycn
+color:   4.00000000000000e+01   4.00000000000000e+01   4.00000000000000e+01
+material:   1.00000000000000e+02   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+pusher: False
+type: APC_ThinElectric
+folding: False
+variablePitch: False
+diameter-in-: 17
+pitch-in-: 6
+bladeCount: 2
+clockwise: True
+hubNormalizedRadius-percent-: 5
+massMargin-percentage-: 0
+gearRatio: 1
+position:  -2.40521281957626e-01   2.35386133193970e-01   1.09116844832897e-01
+rotation-euler-:   9.50000000000000e+01   5.00000000000000e+00   0.00000000000000e+00
+
+Component Type: StabilizedCamera
+name: StabilizedCamera
+uid: yruubjtdfj
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+fieldOfView-deg-: 80
+scale: 0.0671723
+tiltLimitLow-deg-: -90
+tiltLimitHigh-deg-: 0
+panLimitLow-deg-: -90
+panLimitHigh-deg-: 90
+rollLimitLow-deg-: -45
+rollLimitHigh-deg-: 45
+fovLimitLow-deg-: 5
+fovLimitHigh-deg-: 55
+panRateMode: True
+rollRateMode: False
+tiltRateMode: True
+fovRateMode: True
+position:   0.00000000000000e+00   1.73021763563156e-01  -7.18479081988335e-02
+panSignal: Transmitter:CameraPan
+rollSignal: None
+tiltSignal: Transmitter:CameraTilt
+fovSignal: Transmitter:CameraZoom
+mass: 1.7
+mass.updateMode:
+
+Component Type: ElectricMotor
+name: Motor1
+uid: ohsfvxlnly
+color:   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+kv: 313.033
+maximumCurrent: 15.1428
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 236.8
+position:   2.37510740756989e-01   2.34773799777031e-01   1.08633600175381e-01
+rotation-euler-:   9.50000000000000e+01  -5.00000000000000e+00   0.00000000000000e+00
+servo: SpeedController1
+speedController: SpeedController1
+propulsor: Propeller1
+
+Component Type: ElectricMotor
+name: Motor2
+uid: xpbwgzbzlf
+color:   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+kv: 313.033
+maximumCurrent: 15.1428
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 236.8
+position:   2.37527921795845e-01  -2.32516631484032e-01   1.11404411494732e-01
+rotation-euler-:   8.50000000000000e+01  -5.00000000000000e+00   0.00000000000000e+00
+servo: SpeedController2
+speedController: SpeedController2
+propulsor: Propeller2
+
+Component Type: ElectricMotor
+name: Motor3
+uid: spjqjnqxih
+color:   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+kv: 313.033
+maximumCurrent: 15.1428
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 236.8
+position:  -2.39658549427986e-01  -2.34830230474472e-01   1.11885808408260e-01
+rotation-euler-:   8.50000000000000e+01   5.00000000000000e+00   0.00000000000000e+00
+servo: SpeedController3
+speedController: SpeedController3
+propulsor: Propeller3
+
+Component Type: ElectricMotor
+name: Motor4
+uid: hbztdiinkx
+color:   1.00000000000000e+02   1.00000000000000e+02   1.00000000000000e+02
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+kv: 313.033
+maximumCurrent: 15.1428
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 236.8
+position:  -2.40521281957626e-01   2.35386133193970e-01   1.09116844832897e-01
+rotation-euler-:   9.50000000000000e+01   5.00000000000000e+00   0.00000000000000e+00
+servo: SpeedController4
+speedController: SpeedController4
+propulsor: Propeller4
+
+Component Type: FlightController
+name: FlightController
+uid: mchkdolqjm
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+mass: 0.0366325
+Configuration: Quadrotor X
+StabilizationMode: Position Hold
+SportModeActive: 0
+Stabilize_PitchRollYaw_MaxRate: 300
+Stabilize_PitchRoll_P: 1.5
+Stabilize_PitchRoll_I: 0
+Stabilize_PitchRoll_D: 0.01
+Stabilize_Yaw_P: 0.5
+Stabilize_Yaw_I: 0
+Stabilize_Yaw_D: 0
+AutoLevel_PitchRoll_MaxAngle: 35
+AutoLevel_PitchRoll_P: 2
+AutoLevel_PitchRoll_I: 0
+AutoLevel_PitchRoll_D: 0
+PosHold_PitchRoll_MaxSpeed: 18
+PosHold_PitchRoll_P: 0.2
+PosHold_PitchRoll_I: 0
+PosHold_PitchRoll_D: 0
+AltitudeHold_MaxSpeed: 5
+AltitudeHold_P: 8
+AltitudeHold_I: 0
+AltitudeHold_D: 0
+HeadingHold_MaxRate: 150
+HeadingHold_P: 1
+HeadingHold_I: 0
+HeadingHold_D: 0.1
+firmwareVersion: 5-9-2022
+position:   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+rotation-euler-:   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+gyroSensorNoiseAmplitude-degps-: 0
+accelSensorNoiseAmplitude-mps2-: 0
+gyroMotorNoiseAmplitude: 0
+accelMotorNoiseAmplitude: 0
+author: CQV Team
+description: Provides channel mixing and flight stabilization for multicopter aircraft of various configurations.  Configuration names, channel ordering and propeller rotation directions follow the PX4 standard.
+mass.updateMode:
+database: MulticopterController
+
+Component Type: StructuralComponent
+name: Arm1
+uid: xqdhsgammj
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+segmentCount: 1
+length:   2.53699988126755e-01
+roundness-percentage-:   0.00000000000000e+00   0.00000000000000e+00
+height:   2.99999993294477e-02   2.99999993294477e-02
+width:   2.99999993294477e-02   2.99999993294477e-02
+bend:   0.00000000000000e+00
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:   5.13357855379581e-02  -7.21336603164673e-02   2.36336723901331e-03
+rotation-euler-:  -1.00000000000000e+01   0.00000000000000e+00   4.80000000000000e+01
+
+Component Type: StructuralComponent
+name: Arm2
+uid: vuifvbndiz
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+segmentCount: 1
+length:   2.53699988126755e-01
+roundness-percentage-:   0.00000000000000e+00   0.00000000000000e+00
+height:   2.99999993294477e-02   2.99999993294477e-02
+width:   2.99999993294477e-02   2.99999993294477e-02
+bend:   0.00000000000000e+00
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:   4.93300892412663e-02   1.12032175064087e-01   3.77081846818328e-03
+rotation-euler-:  -1.00000000000000e+01   0.00000000000000e+00   1.25000000000000e+02
+
+Component Type: StructuralComponent
+name: Arm3
+uid: ykxuyplbpq
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+segmentCount: 1
+length:   2.53699988126755e-01
+roundness-percentage-:   0.00000000000000e+00   0.00000000000000e+00
+height:   2.99999993294477e-02   2.99999993294477e-02
+width:   2.99999993294477e-02   2.99999993294477e-02
+bend:   0.00000000000000e+00
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  -3.78917753696442e-02   1.03040009737015e-01   2.85371672362089e-03
+rotation-euler-:  -1.00000000000000e+01   0.00000000000000e+00  -1.25000000000000e+02
+
+Component Type: StructuralComponent
+name: Arm4
+uid: vswxofcodx
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+segmentCount: 1
+length:   2.53699988126755e-01
+roundness-percentage-:   0.00000000000000e+00   0.00000000000000e+00
+height:   2.99999993294477e-02   2.99999993294477e-02
+width:   2.99999993294477e-02   2.99999993294477e-02
+bend:   0.00000000000000e+00
+constructionMethod: Monocoque
+constructionMaterial: Aluminum
+massMargin-percentage-: 0
+position:  -5.13000003993511e-02  -7.20999985933304e-02   2.40000011399388e-03
+rotation-euler-:  -1.00000000000000e+01   0.00000000000000e+00  -4.80000000000000e+01
+
+Component Type: StructuralComponent
+name: Hub
+uid: yrlafpkilv
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+segmentCount: 1
+length:   6.58000037074089e-02
+roundness-percentage-:   2.50000000000000e-01   2.50000000000000e-01
+height:   2.46999993920326e-01   2.46999993920326e-01
+width:   1.53799995779991e-01   1.53799995779991e-01
+bend:   0.00000000000000e+00
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+massMargin-percentage-: 0
+position:   0.00000000000000e+00   1.88900213688612e-02  -1.47779090330005e-02
+rotation-euler-:  -9.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+collision:
+collision.updateMode: Off
+
+Component Type: StructuralComponent
+name: RightLeg
+uid: cklnyxeyns
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+segmentCount: 1
+length:   2.59600013494492e-01
+roundness-percentage-:   0.00000000000000e+00   0.00000000000000e+00
+height:   1.99999995529652e-02   1.99999995529652e-02
+width:   1.99999995529652e-02   1.99999995529652e-02
+bend:   0.00000000000000e+00
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+massMargin-percentage-: 0
+position:   8.66308137774467e-02   2.25243903696537e-02   4.61304001510143e-03
+rotation-euler-:   7.15000000000000e+01   0.00000000000000e+00   9.00000000000000e+01
+collision:
+collision.updateMode: Off
+
+Component Type: StructuralComponent
+name: LeftLeg
+uid: fkfxngjuip
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+segmentCount: 1
+length:   2.59600013494492e-01
+roundness-percentage-:   0.00000000000000e+00   0.00000000000000e+00
+height:   1.99999995529652e-02   1.99999995529652e-02
+width:   1.99999995529652e-02   1.99999995529652e-02
+bend:   0.00000000000000e+00
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+massMargin-percentage-: 0
+position:  -8.65999981760979e-02   2.25000008940697e-02   4.60000010207295e-03
+rotation-euler-:   7.15000000000000e+01   0.00000000000000e+00  -9.00000000000000e+01
+collision:
+collision.updateMode: Off
+
+Component Type: StructuralComponent
+name: LeftSkid
+uid: wfgzntfufe
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+segmentCount: 1
+length:   3.83599996566772e-01
+roundness-percentage-:   0.00000000000000e+00   0.00000000000000e+00
+height:   2.99999993294477e-02   2.99999993294477e-02
+width:   2.99999993294477e-02   2.99999993294477e-02
+bend:   0.00000000000000e+00
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+massMargin-percentage-: 0
+position:  -1.73999994993210e-01   2.15800002217293e-01  -2.54900008440018e-01
+rotation-euler-:   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+
+Component Type: StructuralComponent
+name: RightSkid
+uid: owntpfmsif
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+segmentCount: 1
+length:   3.83599996566772e-01
+roundness-percentage-:   0.00000000000000e+00   0.00000000000000e+00
+height:   2.99999993294477e-02   2.99999993294477e-02
+width:   2.99999993294477e-02   2.99999993294477e-02
+bend:   0.00000000000000e+00
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+massMargin-percentage-: 0
+position:   1.74039334058762e-01   2.15838760137558e-01  -2.54936873912811e-01
+rotation-euler-:   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+
+Component Type: StructuralComponent
+name: CameraMount
+uid: ragtzrieog
+color:   2.00000000000000e+01   2.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+segmentCount: 1
+length:   1.20200000703335e-01
+roundness-percentage-:   1.00000000000000e+00   1.00000000000000e+00
+height:   5.99999986588955e-02   5.99999986588955e-02
+width:   1.00000001490116e-01   5.22999987006187e-02
+bend:   0.00000000000000e+00
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+massMargin-percentage-: 0
+position:   0.00000000000000e+00   8.22788849473000e-02  -4.05254103243351e-02
+rotation-euler-:   1.80000000000000e+02   0.00000000000000e+00   0.00000000000000e+00
+
+Component Type: SpeedController
+name: SpeedController1
+uid: rtwxooheui
+color:   2.00000000000000e+01   5.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+currentRating: 18.9285
+massMargin-percentage-: 0
+position:   5.93724995851517e-02   5.93724995851517e-02   0.00000000000000e+00
+rotation-euler-:   0.00000000000000e+00   0.00000000000000e+00   4.50000000000000e+01
+battery: Battery1
+signal: FlightController:Ch1
+
+Component Type: SpeedController
+name: SpeedController2
+uid: uxasccdrir
+color:   2.00000000000000e+01   5.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+currentRating: 18.9285
+massMargin-percentage-: 0
+position:   5.93724995851517e-02  -5.93724995851517e-02   0.00000000000000e+00
+rotation-euler-:   0.00000000000000e+00   0.00000000000000e+00   1.35000000000000e+02
+battery: Battery1
+signal: FlightController:Ch4
+
+Component Type: SpeedController
+name: SpeedController3
+uid: zklpsxhseh
+color:   2.00000000000000e+01   5.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+currentRating: 18.9285
+massMargin-percentage-: 0
+position:  -5.93725070357323e-02  -5.93724884092808e-02   0.00000000000000e+00
+rotation-euler-:   0.00000000000000e+00   0.00000000000000e+00  -1.34999984741211e+02
+battery: Battery1
+signal: FlightController:Ch2
+
+Component Type: SpeedController
+name: SpeedController4
+uid: afygwloads
+color:   2.00000000000000e+01   5.00000000000000e+01   2.00000000000000e+01
+material:   1.00000000000000e+02   5.00000000000000e+01   2.00000000000000e+01   0.00000000000000e+00   0.00000000000000e+00
+visibility: True
+currentRating: 18.9285
+massMargin-percentage-: 0
+position:  -5.93724772334099e-02   5.93725182116032e-02   0.00000000000000e+00
+rotation-euler-:   0.00000000000000e+00   0.00000000000000e+00  -4.49999694824219e+01
+battery: Battery1
+signal: FlightController:Ch3
+
+Component Type: ReferenceModel
+name: ReferenceModel
+uid: toloriizor
+visibility: True
+scale: 1
+position:   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+rotation-euler-:   0.00000000000000e+00   0.00000000000000e+00   0.00000000000000e+00
+scale.updateMode: Off

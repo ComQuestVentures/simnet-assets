@@ -1,0 +1,489 @@
+Component Type: Transmitter
+name: Transmitter
+uid:
+trim:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000 -1.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+reverse: 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+travel:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+exponential:  8.0000000000e+001  8.0000000000e+001  8.0000000000e+001  8.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+deadzone:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000
+author: Blade Team
+description: Real Flight Interlink transmitter configuration file
+
+Component Type: Airfoil
+name: SymmetricAirfoil
+uid: zdzrdcceiv
+visibility: True
+author: Geometry data from UIUC Airfoil Coordinates Database, http://aerospace.illinois.edu/m-selig/ads/coord_database.html. Performance calculated using XFoil with Ncrit=9: http://web.mit.edu/drela/Public/web/xfoil/
+description: NACA 0008 airfoil
+database: naca0008
+
+Component Type: Airfoil
+name: RootAirfoil
+uid: miealmocag
+visibility: True
+author: Geometry data from UIUC Airfoil Coordinates Database, http://aerospace.illinois.edu/m-selig/ads/coord_database.html. Performance calculated using XFoil with Ncrit=9: http://web.mit.edu/drela/Public/web/xfoil/
+description: NACA 0015 airfoil
+database: naca0015
+
+Component Type: Airfoil
+name: WingAirfoil
+uid: pqgxjbmomo
+visibility: True
+author: Geometry data from UIUC Airfoil Coordinates Database, http://aerospace.illinois.edu/m-selig/ads/coord_database.html. Performance calculated using XFoil with Ncrit=9: http://web.mit.edu/drela/Public/web/xfoil/
+description: John Yost EH 2.0/10 for tailless R/C aircraft
+database: eh2010
+
+Component Type: Battery
+name: Battery
+uid: wxnauxiuhf
+color:  0.0000000000e+000  0.0000000000e+000  5.0000000000e+001
+material:  1.0000000000e+002  1.0000000000e+002  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+cells: 4
+capacity_mAh_: 20000
+cRating: 25
+massMargin-percentage-: 0
+parallelCount: 1
+widthToLength-percent-: 39
+heightToLength-percent-: 29
+position:  3.5659301900e-011  1.0674697161e-001  2.2930703126e-003
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Propeller
+name: FrontRightPropeller
+uid: yacysfkxhp
+color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
+material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+pusher: False
+type: APC_ThinElectric
+folding: False
+variablePitch: False
+diameter-in-: 15
+pitch-in-: 9
+bladeCount: 2
+clockwise: False
+hubNormalizedRadius-percent-: 10
+massMargin-percentage-: 0
+gearRatio: 1
+position:  3.5102859139e-001 -1.5713608265e-001 -2.4908627570e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Propeller
+name: FrontLeftPropeller
+uid: zgcipkmzrn
+color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
+material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+pusher: False
+type: APC_ThinElectric
+folding: False
+variablePitch: False
+diameter-in-: 15
+pitch-in-: 9
+bladeCount: 2
+clockwise: True
+hubNormalizedRadius-percent-: 10
+massMargin-percentage-: 0
+gearRatio: 1
+position: -3.5100001097e-001 -1.5713608265e-001 -2.5073769689e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Propeller
+name: BackLeftPropeller
+uid: fzivrnfcry
+color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
+material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+pusher: False
+type: APC_ThinElectric
+folding: False
+variablePitch: False
+diameter-in-: 15
+pitch-in-: 9
+bladeCount: 2
+clockwise: False
+hubNormalizedRadius-percent-: 10
+massMargin-percentage-: 0
+gearRatio: 1
+position: -3.5100001097e-001 -1.5992322564e-001  2.6284715533e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: Propeller
+name: BackRightPropeller
+uid: dtiemtwyfa
+color:  4.0000000000e+001  4.0000000000e+001  4.0000000000e+001
+material:  1.0000000000e+002  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+pusher: False
+type: APC_ThinElectric
+folding: False
+variablePitch: False
+diameter-in-: 15
+pitch-in-: 9
+bladeCount: 2
+clockwise: True
+hubNormalizedRadius-percent-: 10
+massMargin-percentage-: 0
+gearRatio: 1
+position:  3.5102859139e-001 -1.6157466173e-001  2.6119571924e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+
+Component Type: ElectricMotor
+name: FrontRightMotor
+uid: ckkvnljkxb
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: True
+kv: 715
+maximumCurrent: 45
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 100
+position:  3.5102859139e-001 -1.5713608265e-001 -2.4908627570e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+servo: FrontRightSpeedController
+speedController: FrontRightSpeedController
+propulsor: FrontRightPropeller
+author: CQV Team. Data obtained from manufacturer.
+description: KDE brand brushless motor.
+scale: 0.0422
+scale.updateMode: Off
+resistance-mOhm-: 54
+resistance-mOhm-.updateMode: Off
+noLoadCurrent: 0.5
+noLoadCurrent.updateMode: Off
+noLoadCurrentVoltage: 10
+noLoadCurrentVoltage.updateMode: Off
+
+Component Type: ElectricMotor
+name: FrontLeftMotor
+uid: yufzsetqsx
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: True
+kv: 715
+maximumCurrent: 45
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 100
+position: -3.5100001097e-001 -1.5713608265e-001 -2.5073769689e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+servo: FrontLeftSpeedController
+speedController: FrontLeftSpeedController
+propulsor: FrontLeftPropeller
+author: CQV Team. Data obtained from manufacturer.
+description: KDE brand brushless motor.
+scale: 0.0422
+scale.updateMode: Off
+resistance-mOhm-: 54
+resistance-mOhm-.updateMode: Off
+noLoadCurrent: 0.5
+noLoadCurrent.updateMode: Off
+noLoadCurrentVoltage: 10
+noLoadCurrentVoltage.updateMode: Off
+
+Component Type: ElectricMotor
+name: BackLeftMotor
+uid: scsqvcyjet
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: True
+kv: 715
+maximumCurrent: 45
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 100
+position: -3.5100001097e-001 -1.5992322564e-001  2.6284715533e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+servo: BackLeftSpeedController
+speedController: BackLeftSpeedController
+propulsor: BackLeftPropeller
+author: CQV Team. Data obtained from manufacturer.
+description: KDE brand brushless motor.
+scale: 0.0422
+scale.updateMode: Off
+resistance-mOhm-: 54
+resistance-mOhm-.updateMode: Off
+noLoadCurrent: 0.5
+noLoadCurrent.updateMode: Off
+noLoadCurrentVoltage: 10
+noLoadCurrentVoltage.updateMode: Off
+
+Component Type: ElectricMotor
+name: BackRightMotor
+uid: mekosycddh
+color:  1.0000000000e+002  1.0000000000e+002  1.0000000000e+002
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: True
+kv: 715
+maximumCurrent: 45
+massMargin-percentage-: 0
+lengthToDiameter-percent-: 100
+position:  3.5102859139e-001 -1.6157466173e-001  2.6119571924e-001
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+servo: BackRightSpeedController
+speedController: BackRightSpeedController
+propulsor: BackRightPropeller
+author: CQV Team. Data obtained from manufacturer.
+description: KDE brand brushless motor.
+scale: 0.0422
+scale.updateMode: Off
+resistance-mOhm-: 54
+resistance-mOhm-.updateMode: Off
+noLoadCurrent: 0.5
+noLoadCurrent.updateMode: Off
+noLoadCurrentVoltage: 10
+noLoadCurrentVoltage.updateMode: Off
+
+Component Type: FlightController
+name: FlightController
+uid: bgmyqqurmy
+color:  5.0000000000e+000  5.0000000000e+000  5.0000000000e+000
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: True
+mass: 0.0366326
+ForwardFlightAutoLevel: Yes
+HoverStabilizeYawP: 0.5
+HoverStabilizeRollP: 1
+HoverStabilizePitchP: 0.5
+HoverLevelRollP: 1
+HoverLevelPitchP: 1.5
+HoverLevelYawP: 1.5
+ForwardStabilizeYawP: 0
+ForwardStabilizeRollP: 0.1
+ForwardStabilizePitchP: 0.1
+ForwardLevelRollP: 2
+ForwardLevelPitchP: 2
+ForwardPitchTrim: -25
+HoverThrottle: 53
+AltitudeHoldP: 5
+HoverPitch: 90
+HoverMaxAngle: 45
+ForwardMaxAngle: 60
+TransitionTime: 8
+firmwareVersion:
+position:  0.0000000000e+000 -9.1175884008e-002  0.0000000000e+000
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+gyroSensorNoiseAmplitude-degps-: 0
+accelSensorNoiseAmplitude-mps2-: 0
+gyroMotorNoiseAmplitude: 0
+accelMotorNoiseAmplitude: 0
+author: CQV
+description: Provides channel mixing and flight stabilization tilt-body VTOL aircraft.
+mass.updateMode:
+database: TiltBodyVTOLController
+
+Component Type: StructuralComponent
+name: RightBoom
+uid: ucwaklkesr
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: True
+segmentCount: 1
+length:  5.5000001192e-001
+roundness-percentage-:  0.0000000000e+000  0.0000000000e+000
+height:  5.0000000745e-002  5.0000000745e-002
+width:  4.9999998882e-003  4.9999998882e-003
+bend:  0.0000000000e+000
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+massMargin-percentage-: 0
+position: -3.5537269711e-001 -2.0113204420e-001  2.8002342582e-001
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+
+Component Type: StructuralComponent
+name: LeftBoom
+uid: musrwfxspe
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: True
+segmentCount: 1
+length:  5.5000001192e-001
+roundness-percentage-:  0.0000000000e+000  0.0000000000e+000
+height:  5.0000000745e-002  5.0000000745e-002
+width:  4.9999998882e-003  4.9999998882e-003
+bend:  0.0000000000e+000
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+massMargin-percentage-: 0
+position:  3.5539999604e-001 -2.0113204420e-001  2.8002342582e-001
+rotation-euler-:  9.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+
+Component Type: SpeedController
+name: FrontRightSpeedController
+uid: ppdcsmylan
+color:  0.0000000000e+000  1.0000000000e+001  0.0000000000e+000
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+currentRating: 60
+massMargin-percentage-: 0
+position:  1.3153876364e-001  5.7270877063e-002 -1.2272898857e-005
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+battery: Battery
+signal: FlightController:FrontRightMotor
+
+Component Type: SpeedController
+name: FrontLeftSpeedController
+uid: oylehcrdym
+color:  0.0000000000e+000  1.0000000000e+001  0.0000000000e+000
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+currentRating: 60
+massMargin-percentage-: 0
+position: -1.2969900668e-001  6.3623651862e-002 -1.1637631360e-005
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+battery: Battery
+signal: FlightController:FrontLeftMotor
+
+Component Type: SpeedController
+name: BackRightSpeedController
+uid: xvvddezdfg
+color:  0.0000000000e+000  1.0000000000e+001  0.0000000000e+000
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+currentRating: 60
+massMargin-percentage-: 0
+position:  1.3152873516e-001 -5.5040203035e-002 -2.3504011551e-005
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+battery: Battery
+signal: FlightController:BackRightMotor
+
+Component Type: SpeedController
+name: BackLeftSpeedController
+uid: nuncrdqnvu
+color:  0.0000000000e+000  1.0000000000e+001  0.0000000000e+000
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+currentRating: 60
+massMargin-percentage-: 0
+position: -1.3094626367e-001 -5.5566132069e-002 -2.3556603992e-005
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+battery: Battery
+signal: FlightController:BackLeftMotor
+
+Component Type: Mixer
+name: RightElevonMixer
+uid: khqxvdmhiq
+visibility: True
+signalCount: 2
+signal: FlightController:Pitch FlightController:Roll
+reverse: 1 0
+
+Component Type: Mixer
+name: LeftElevonMixer
+uid: kcexygznoq
+visibility: True
+signalCount: 2
+signal: FlightController:Pitch FlightController:Roll
+reverse: 0 0
+
+Component Type: Servo
+name: RightAileronServo
+uid: ubopacjptu
+color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+signal: FlightController:RightElevon
+reverse: False
+rotationSpeed-revps-: 5
+size: Micro
+stepperMode: False
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position:  5.1177841425e-001 -1.6357998550e-001 -2.3704064079e-003
+rotation-euler-:  0.0000000000e+000  9.0000000000e+001  0.0000000000e+000
+
+Component Type: Servo
+name: LeftAileronServo
+uid: lofygnemdh
+color:  1.5000000000e+000  1.5000000000e+000  1.5000000000e+000
+material:  1.0000000000e+002  4.0000000000e+001  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+signal: FlightController:LeftElevon
+reverse: False
+rotationSpeed-revps-: 5
+size: Micro
+stepperMode: False
+massMargin-percentage-: 0
+acceleration-revps2-: 10
+position: -5.1179999113e-001 -1.6359999776e-001 -2.4000001140e-003
+rotation-euler-:  0.0000000000e+000 -9.0000000000e+001  0.0000000000e+000
+
+Component Type: Wing
+name: Wing
+uid: zbreghkesv
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  1.0000000000e+002  5.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+visibility: True
+semiSpan: False
+leftSemiSpan: False
+wingSpan:  7.3799997568e-002  4.3600000441e-002  7.9999998212e-002  3.0250000954e-001  5.2499997616e-001
+chord:  6.1100000143e-001  5.1300001144e-001  4.3079999089e-001  3.6179998517e-001  2.4779999256e-001  1.5240000188e-001
+sweep:  8.5209999084e+000  4.8434700012e+001  2.5154699326e+001  1.9914199829e+001  1.9914199829e+001
+dihedral:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+twist:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000 -3.0000000000e+000
+flapSize-percentage-:  1.5000000000e+001  1.5000000000e+001  1.5000000000e+001  1.5000000000e+001  1.7879999161e+001  2.1479999542e+001
+flapDeflection-deg-:  3.5000000000e+001  3.5000000000e+001  3.5000000000e+001  3.5000000000e+001  3.5000000000e+001
+constructionMethod: Solid
+constructionMaterial: EPS Foam
+meshResolution: 10
+disableNonlinearAero: False
+massMargin-percentage-: 25
+dragAugmentation-percent-: 150
+position:  0.0000000000e+000  1.4658769965e-001  0.0000000000e+000
+rotation-euler-:  0.0000000000e+000  0.0000000000e+000  0.0000000000e+000
+airfoils: RootAirfoil RootAirfoil RootAirfoil WingAirfoil WingAirfoil WingAirfoil
+rightWingServos: None None None None RightAileronServo
+leftWingServos: None None None None LeftAileronServo
+
+Component Type: Wing
+name: RightTip
+uid: dxvtkxnghm
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: True
+semiSpan: False
+leftSemiSpan: False
+wingSpan:  2.0000000298e-001
+chord:  2.0000000298e-001  1.0000000149e-001
+sweep:  4.0000000000e+001
+dihedral:  0.0000000000e+000
+twist:  0.0000000000e+000  0.0000000000e+000
+flapSize-percentage-:  1.5000000000e+001  1.5000000000e+001
+flapDeflection-deg-:  3.5000000000e+001
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+meshResolution: 7
+disableNonlinearAero: False
+massMargin-percentage-: 0
+dragAugmentation-percent-: 100
+position:  1.0277044773e+000 -2.5177231431e-001 -4.4922394693e-008
+rotation-euler-:  0.0000000000e+000  9.0000000000e+001  0.0000000000e+000
+airfoils: SymmetricAirfoil SymmetricAirfoil
+rightWingServos: None
+leftWingServos: None
+
+Component Type: Wing
+name: LeftTip
+uid: iuvbnjqgcg
+color:  2.0000000000e+001  2.0000000000e+001  2.0000000000e+001
+material:  1.0000000000e+002  5.0000000000e+001  2.0000000000e+001  0.0000000000e+000  0.0000000000e+000
+visibility: True
+semiSpan: False
+leftSemiSpan: False
+wingSpan:  2.0000000298e-001
+chord:  2.0000000298e-001  1.0000000149e-001
+sweep:  4.0000000000e+001
+dihedral:  0.0000000000e+000
+twist:  0.0000000000e+000  0.0000000000e+000
+flapSize-percentage-:  1.5000000000e+001  1.5000000000e+001
+flapDeflection-deg-:  3.5000000000e+001
+constructionMethod: Monocoque
+constructionMaterial: Carbon Fiber
+meshResolution: 7
+disableNonlinearAero: False
+massMargin-percentage-: 0
+dragAugmentation-percent-: 100
+position: -1.0276999474e+000 -2.5177231431e-001 -4.4922394693e-008
+rotation-euler-:  0.0000000000e+000  9.0000000000e+001  0.0000000000e+000
+airfoils: SymmetricAirfoil SymmetricAirfoil
+rightWingServos: None
+leftWingServos: None
